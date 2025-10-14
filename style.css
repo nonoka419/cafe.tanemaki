@@ -165,3 +165,70 @@ footer {
     text-align: center;
     margin-top: 30px;
 }
+
+
+
+@media (max-width: 768px) {
+
+  body {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .page-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    width: 200px;
+    margin: 10px auto;
+  }
+
+  .big-bg {
+    height: 250px; 
+    background-position: center;
+    background-size: cover;
+  }
+
+  main {
+    padding: 30px 10px;
+  }
+
+  section img {
+    width: 100%;
+    height: auto;
+  }
+
+  .menu-item {
+    flex-direction: column; 
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .menu-item .name,
+  .menu-item .price {
+    font-size: 16px;
+  }
+
+  .menu-list {
+    padding: 0;
+  }
+
+  #menu {
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .access-list,
+  .info-list {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  footer {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
