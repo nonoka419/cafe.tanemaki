@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 0;
     color: #333;
-    font-size: 20px;
+    font-size: 20px; 
     font-weight: 300;
     background-color: #fff6d7;
 }
@@ -78,7 +78,7 @@ section {
 }
 
 .menu-list {
-    list-style: none:
+    list-style: none;
     margin: 0 auto;
     padding: 10px;
     max-width: 600px;
@@ -148,6 +148,11 @@ section {
     display: inline-block;
     text-align: left;
     line-height: 2.0;
+    list-style-type: none;
+}
+
+.info-list {
+    text-align: center;
 }
 
 .copyright {
