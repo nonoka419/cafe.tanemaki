@@ -21,10 +21,12 @@ body{
 
 
 .big-bg {
-    background-size: cover;
-    position: relative;
-    height: 600px;
-    background-image: url("cafe.jpg");
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: center;
+    width: 100%;
+    height: 450px;
 }
 
 .main-key {
@@ -38,19 +40,6 @@ body{
     margin: 10px 0;
 }
 
-.cafe {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #333;
-    font-size: 2.0rem;
-    font-weight: normal;
-    background: rgba(255, 255, 255, 0.7);
-    padding: 10px 20px;
-    border-radius: 8px;
-}
 
 section img {
     width: 300px;
