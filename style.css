@@ -28,7 +28,7 @@ body{
 
 
 .big-bg {
-    background-image: url(image/banner.jpg);
+    background-image: url(banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: center;
@@ -232,8 +232,8 @@ footer {
 
   .logo {
     width: 50px;
-    margin: 20px 0;
-    margin-left: 10px;
+    top: 10;
+    left: 10;
   }
 
 
