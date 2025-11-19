@@ -236,8 +236,13 @@ footer {
     left: 10;
   }
 
+  .nav ul {
+    font-size: 10px;
+    gap: 8px;
+    
 
   .big-bg {
+    width: 100px;
     height: 250px; 
     background-position: center;
     background-size: cover;
