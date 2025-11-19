@@ -28,7 +28,7 @@ body{
 
 
 .big-bg {
-    background-image: url(image/banner.jpg);
+    background-image: url(banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: center top;
@@ -236,9 +236,14 @@ footer {
     margin-left: 10px;
   }
 
+  .nav ul {
+    font-size: 10px;
+    gap: 8px;
+  }
+
 
   .big-bg {
-    background-image: url(banner2.jpg);
+    background-image: url(image/banner2.jpg);
     width: 100%;
     height: 350px;
   }
@@ -270,6 +275,10 @@ footer {
   #menu {
     width: 100%;
     padding: 20px 10px;
+  }
+
+  #menu p {
+    font-size: 13px;
   }
 
   .info-list {
