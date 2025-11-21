@@ -113,6 +113,13 @@ section {
     max-width: 600px;
 }
 
+.menu-c {
+  font-size: 25px;
+  color: #ffffff;
+  background-color:#8a5233;
+  padding: 10px 5px 10px 5px;
+}
+
 .menu-list p {
     font-size: 17px;
 }
@@ -246,7 +253,7 @@ footer {
 
 
   .big-bg {
-    background-image: url(banner2.jpg);
+    background-image: url(banner3.jpg);
     background-size: cover;
     background-position: center top;
     width: 100%;
